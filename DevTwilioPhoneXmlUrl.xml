@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Gather action="http://6f12580e.ngrok.io/security/TwilioPhoneChallengeCompleted" finishOnKey="#">
-        <Say voice="man">Lei is testing! This is Centrify's Multifactor authentication. Please press any key followed by pound sign to complete your authentication</Say>
+    <Gather action="http://6f12580e.ngrok.io/security/TwilioPhoneChallengeCompleted" timeout="30" finishOnKey="#">
+        <Say voice="woman">Lei is testing! This is Centrify's Multifactor authentication. Please press any key followed by pound sign to complete your authentication</Say>
     </Gather>
     <!-- Will only come here after timeout expires -->
-    <Say voice="man">We didn't receive any input. Goodbye!</Say>
-    <Hangup/>
+    <!-- <Say voice="woman">We didn't receive any input. Goodbye!</Say>
+    <Hangup/> -->
 </Response>
