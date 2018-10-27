@@ -3,5 +3,5 @@
   <Gather action="http://6f12580e.ngrok.io/TwilioPhoneChallengeCompleted" timeout="15" finishOnKey="#">
   <Play>Twilio-MFAAuth-Default.mp3</Play>
   </Gather>
-  <Redirect>/security/TwilioPhoneChallengeNotAnswered</Redirect>
+  <Redirect>http://6f12580e.ngrok.io/security/TwilioPhoneChallengeNotAnswered</Redirect>
 </Response>
