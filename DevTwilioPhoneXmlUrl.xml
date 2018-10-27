@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Gather action="http://6f12580e.ngrok.io/TwilioPhoneChallengeCompleted" timeout="15" finishOnKey="#">
-  <Play>Twilio-MFAAuth-Default.mp3</Play>
+  <Play>https://raw.githubusercontent.com/LeiZhangImo/DevTwilioPhoneAuthSetup/master/Twilio-MFAAuth-Default.mp3</Play>
   </Gather>
   <Redirect>http://6f12580e.ngrok.io/security/TwilioPhoneChallengeNotAnswered</Redirect>
 </Response>
