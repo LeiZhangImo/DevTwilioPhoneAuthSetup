@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-  <Gather action="http://6f12580e.ngrok.io/TwilioPhoneChallengeCompleted" timeout="15" finishOnKey="#">
-  <Play>https://raw.githubusercontent.com/LeiZhangImo/DevTwilioPhoneAuthSetup/master/Twilio-MFAAuth-Default.mp3</Play>
-  </Gather>
-  <Redirect>http://6f12580e.ngrok.io/security/TwilioPhoneChallengeNotAnswered</Redirect>
-</Response>
+<?xml version="1.0" encoding="UTF-8"?> <Response><Gather action ="http://d87f7b65.ngrok.io/security/TwilioPhoneChallengeCompleted" timeout="45" finishOnKey="#"><Say voice="woman">Lei test, Lei test This is Centrify's Multifactor authentication. Please press any key followed by pound sign to complete your authentication</Say></Gather><Redirect>http://d87f7b65.ngrok.io/security/TwilioPhoneChallengeNotAnswered</Redirect></Response>
